@@ -3,6 +3,8 @@
 
 ## Write a short comment describing this function
 
+## this function below will set and get a matrix along with setting and getting its inverse that was solved within.
+
 makeCacheMatrix <- function(x = matrix()) {
 
   inv <- NULL
@@ -18,6 +20,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+
+## this function below will retrieve an inverse if available in memory. If it cannot find an inverse, it will then retrieve the
+## matrix and compute the inverse. Then it stores(sets) that inverse to value inv and returns inv as proof.
 
 cacheSolve <- function(x, ...) {
       
