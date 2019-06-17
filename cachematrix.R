@@ -1,6 +1,10 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
+## in an attempt to understand how R Studio caches/stores values to save computation, we are leveraging two
+## functions that will set and get matrices along with computing their inverse both initiall and after 
+## it has attempted to retrieve the inverse from memory.
+
 ## Write a short comment describing this function
 
 ## this function below will set and get a matrix along with setting and getting its inverse that was solved within.
